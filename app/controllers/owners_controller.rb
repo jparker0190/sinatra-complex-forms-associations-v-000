@@ -31,6 +31,6 @@ class OwnersController < ApplicationController
   end
 
   post '/owners/:id' do
-
+    binding.pry
   end
 end
